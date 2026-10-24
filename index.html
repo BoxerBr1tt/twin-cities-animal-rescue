@@ -6,42 +6,62 @@
     <title>Twin Cities Animal Rescue - Home</title>
 </head>
 <body>
-    <header>Twin Cities Animal Rescue</header>
-    <nav>
+    <a href="#main-content">Skip to main content</a>
+
+    <header>Twin Cities Animal Rescue
+    <nav aria-label="Primary">
         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="index.html" aria-current="page">Home</a></li>
+            <li><a href="pages/about.html">About</a></li>
+            <li><a href="pages/services.html">Services</a></li>
+            <li><a href="pages/contact.html">Contact</a></li>
         </ul>
     </nav>
-    <main>
+    </header>
+    <main id="main-content">
+        <section>
         <h1>Welcome to Twin Cities Animal Rescue</h1>
-        <Picture>
-            <source srcset="rescue-feature-small.jpg" media ="(max-width: 600px)">
-            <img src="rescue-feature-large_c.png" alt="A man in a wheelchair with a dog beside him">
-        </Picture>
+        <picture>
+            <source srcset="images/rescue-feature-large_c.png" media ="(min-width: 800px)">
+            <img src="images/rescue-feature-small_c.png" alt="A man in a wheelchair with a dog beside him">
+        </picture>
+        </section>
         <h2>Our Mission</h2>
         <p>
-            mission text will go here / placeholder for now
-            mirror the mp3 words basically / the concept of their 3 branches 
+            Every animal deserves a loving home. Whether you want to adopt, foster, or volunteer there's a place for you here. let's find the perfect match.
         </p>
         <h2>How You Can Help</h2>
             <h3>Adopt</h3>
-                <p>a paragraph about adoption goes here</p>
+                <p>Help give an animal in need its forever home</p>
             <h3>Foster</h3>
-                <p>a paragraph about fostering goes here</p>
+                <p>Help prepare animals for their forever homes</p>
             <h3>Volunteer</h3>
-                <p>a paragraph about volunteering goes here</p>
+                <p>Make a real difference</p>
         <h2>Our Impact</h2>
-            <p>impact statistics</p>
-        <video src="rescue-message_c.mp4" width="1200" controls>
-            This video is currently unavailable.
+            <p>For x years, Twin Cities Animal Rescue has something something in the community</p>
+        <video src="assets/videos/rescue-message_c.mp4" width="1200" controls>
+            Your browser does not support the video element.
         </video>
-        <audio src="rescue-message_c.mp3" controls>
-            This audio is currently unavailable.
+        <audio src="../assets/rescue-message_c.mp3" controls>
+            Your browser does not support the audio element.
         </audio>
+        <h3>Transcript</h3>
+        <p>Every animal deserves a loving home. Whether you want to adopt, foster, or volunteer there's a place for you here. let's find the perfect match.</p>
     </main>
-    <footer>c. 2026 Twin Cities Animal Rescue - Twin Cities, MN</footer>
+
+    <footer>
+    <nav aria-label="Footer">
+        <ul>c. 2026 Twin Cities Animal Rescue - Twin Cities, MN
+            <li><a href="index.html">Home</a></li>
+            <li><a href="pages/about.html">About</a></li>
+            <li><a href="pages/services.html">Services</a></li>
+            <li><a href="pages/contact.html">Contact</a></li>
+        </ul>
+        </nav>
+        <p>
+         &copy: 2026 Twin Cities Animal Rescue. All rights reserved   
+        </p>
+    </footer>
+
 </body>
 </html>
