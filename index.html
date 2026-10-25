@@ -1,44 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="css/styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Twin Cities Animal Rescue - Home</title>
 </head>
 <body>
-    <a href="#main-content">Skip to main content</a>
+    <a href="#main-content" class="button-link">Skip to main content</a>
 
     <header>Twin Cities Animal Rescue
     <nav aria-label="Primary">
         <ul>
-            <li><a href="index.html" aria-current="page">Home</a></li>
-            <li><a href="pages/about.html">About</a></li>
-            <li><a href="pages/services.html">Services</a></li>
-            <li><a href="pages/contact.html">Contact</a></li>
+            <li><a href="index.html" aria-current="page" class="button-link">Home</a></li>
+            <li><a href="pages/about.html" class="button-link">About</a></li>
+            <li><a href="pages/services.html" class="button-link">Services</a></li>
+            <li><a href="pages/contact.html" class="button-link">Contact</a></li>
         </ul>
     </nav>
     </header>
+    <div class="page-wrapper">
     <main id="main-content">
-        <section>
+
+    
         <h1>Welcome to Twin Cities Animal Rescue</h1>
+        <div class="intro-row">
         <picture>
             <source srcset="images/rescue-feature-large_c.png" media ="(min-width: 800px)">
             <img src="images/rescue-feature-small_c.png" alt="A man in a wheelchair with a dog beside him">
         </picture>
-        </section>
+        <div class="mission">
         <h2>Our Mission</h2>
         <p>
-            Every animal deserves a loving home. Whether you want to adopt, foster, or volunteer there's a place for you here. let's find the perfect match.
+            Twin Cities Animal Rescue gives animals with nowhere else to go medical care, time to recover, and a path to a permanent home. Our volunteers, fosters and adopters are found throughout Minneapolis and Saint Paul.
         </p>
-        <h2>How You Can Help</h2>
-            <h3>Adopt</h3>
-                <p>Help give an animal in need its forever home</p>
-            <h3>Foster</h3>
-                <p>Help prepare animals for their forever homes</p>
-            <h3>Volunteer</h3>
+        </div>
+    </div>
+
+        <h2 class="center-heading">How You Can Help</h2>
+            <div class="help-columns">
+                <div class="help-column">
+                <h3>Adopt</h3>
+                    <p>Help give an animal in need its forever home</p>
+                </div>
+                <div class="help-column">
+                <h3>Foster</h3>
+                    <p>Help prepare animals for their forever homes</p>
+                </div>
+                <div class="help-column">
+                <h3>Volunteer</h3>
                 <p>Make a real difference</p>
+                </div>
+            </div>
+
         <h2>Our Impact</h2>
-            <p>For x years, Twin Cities Animal Rescue has something something in the community</p>
+            <p>Since 1999, Twin Cities Animal Rescue has helped animals across Minneapolis and Saint Paul find loving homes, thanks to a volunteer team and foster homes drawn from the very community we serve.</p>
         <video src="assets/videos/rescue-message_c.mp4" width="1200" controls>
             Your browser does not support the video element.
         </video>
@@ -48,18 +64,19 @@
         <h3>Transcript</h3>
         <p>Every animal deserves a loving home. Whether you want to adopt, foster, or volunteer there's a place for you here. let's find the perfect match.</p>
     </main>
-
+    </div>
     <footer>
     <nav aria-label="Footer">
-        <ul>c. 2026 Twin Cities Animal Rescue - Twin Cities, MN
-            <li><a href="index.html">Home</a></li>
-            <li><a href="pages/about.html">About</a></li>
-            <li><a href="pages/services.html">Services</a></li>
-            <li><a href="pages/contact.html">Contact</a></li>
+        <ul>
+            <li><a href="index.html" class="button-link">Home</a></li>
+            <li><a href="pages/about.html" class="button-link">About</a></li>
+            <li><a href="pages/services.html" class="button-link">Services</a></li>
+            <li><a href="pages/contact.html" class="button-link">Contact</a></li>
+      
         </ul>
         </nav>
         <p>
-         &copy: 2026 Twin Cities Animal Rescue. All rights reserved   
+         &copy; 2026 Twin Cities Animal Rescue. All rights reserved   
         </p>
     </footer>
 

@@ -1,0 +1,168 @@
+:root {
+    --space-xs: 0.25rem;
+    --space-sm: 0.5rem;
+    --space-md: 1rem;
+    --space-lg: 1.5rem;
+    --space-xl: 2rem;
+}
+
+.page-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header, footer {
+padding: var(--space-md);
+background-color: #4F5D4B;
+color: #F4F1E8;
+}
+
+nav a {
+    padding: var(--space-sm) var(--space-md);
+    margin: var(--space-xs);
+    min-height: 44px;
+    box-sizing: border-box;
+}
+
+nav a.button-link:hover {
+    background-color: #D7E0ED;)
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+padding: var(--space-md);
+margin-bottom: var(--space-lg);
+}
+
+body {
+    font-family: Tahoma, Geneva, sans-serif;
+    background-color: #F4F1E8;
+    color: #2E2B26;
+}
+p {
+margin: var(--space-sm) 0 var(--space-md);
+line-height: 1.6;
+}
+
+h1 {
+    font-size: 2.25rem;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #2E2B26;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1.2;
+    color: #2E2B26;
+}
+
+h3 {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #2E2B26;
+    line-height: 1.2;
+}
+.button-link {
+    display: inline-block;
+    padding: 8px 24px;
+    min-height: 44px;
+    min-width: 44px;
+    color: #2E2B26;
+    background-color: #D8B98A;
+    text-decoration: underline;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.button-link:visited {
+color: rgb(130, 0, 170);
+}
+
+.button-link:hover {
+color: #004499;
+background-color: rgba(99, 156, 255, 0.2);
+}
+
+.button-link:focus {
+color: #004499;
+outline: 2px solid #004499;
+}
+
+.button-link:focus-visible {
+    outline: 3px solid #004499;
+    outline-offset: 2px;
+}
+
+.button-link:active {
+color: #002244;
+}
+
+.help-columns {
+    display: flex;
+    flex-direction: row;
+}
+
+.help-column {
+    flex: 1;
+}
+
+@media (max-width: 700px) {
+    
+    .help-columns {
+        flex-direction: column;
+    }
+   
+    nav a {
+        padding: 8px 8px;
+        font-size: 0.875rem;
+    }
+
+    .intro-row {
+        flex-direction: column;
+    }
+
+    h1 {
+        font-size: 1.75rem;
+    }
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.intro-row {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.intro-row picture {
+    flex: 1;
+}
+
+.intro-row .mission {
+    flex: 1;
+}
+
+.center-heading {
+    text-align: center;
+}
+
+.help-columns {
+    gap: 16px;
+    margin: 24px 0;
+}
+
+.help-column h2, .help-column h3 {
+    text-align: center;
+}
