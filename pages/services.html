@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Twin Cities Animal Rescue - Services</title>
 </head>
+
 <body>
     <a href="#main-content" class="button-link">Skip to main content</a>
     
@@ -33,22 +34,33 @@
                     <img src="../images/rescue-pet_c.png" alt="bright, close up image of a guinea pig">
                 </div>
                 <div class="help-column">
-                    <h2>Foster</h2>
-                    <p>Experienced fosters are needed. Fosters give an animal a temporary home while it waits for adoption - a quiet place to recover and show its real personality. Most stays last a few weeks. We cover food, supplies, and veterinary care; you give daily care, photos and updates, and rides to vet visits or events. Every animal in a foster home frees up space for another animal in need. If you have experience and room in your home, send your interest through the Contact form. </p>
-                </div>
-                <div class="help-column">
-                    <h2>Volunteer</h2>
-                    <p>Volunteer positions include 
+ <h2>Volunteer</h2>
+                    <p>Click a position to add an information request to the contact form
                         <br>
-                        Dog Walking - Take our dogs out for walks and playtime, giving them exercise, fresh air, and the socialization that helps them get adopted.
+                        <button type="button" data-role="dog-walking">Dog Walking</button>
+                        
                         <br>
-                        Cat Socialization - Spend time with our cats, especially the shy ones, so they get comfortable with people and show their real personalities to adopters.
+                        Take our dogs out for walks and playtime, giving them exercise, fresh air, and the socialization that helps them get adopted.
+                        <br>
+                        <button type="button" data-role="cat-socialization">Cat Socialization</button>
+                        
+                        <br>
+                        Spend time with our cats, especially the shy ones, so they get comfortable with people and show their real personalities to adopters.
                         <br> 
-                        Adoption Event Helper - Help run adoption events by setting up, greeting visitors, answering questions about the animals, and handling animals at the event.
+                        <button type="button" data-role="adoption-event-helper">Adoption Event Helper</button>
+                        
+                        <br>
+                        Help run adoption events by setting up, greeting visitors, answering questions about the animals, and handling animals at the event.
                         <img src="../images/rescue-volunteer_c.png" alt="a man crouching wearing a volunteer shirt petting a dog and holding its paw">
+                    </div>
+                <div class="help-column">
+                <h2>Foster</h2>
+                    <p>Experienced fosters are needed. Fosters give an animal a temporary home while it waits for adoption - a quiet place to recover and show its real personality. Most stays last a few weeks. We cover food, supplies, and veterinary care; you give daily care, photos and updates, and rides to vet visits or events. Every animal in a foster home frees up space for another animal in need. If you have experience and room in your home, send your interest through the Contact form. </p>   
                 </div>
             </div>
             </p>
+            <h3>My interests</h3>
+            <ul id="my-interests-list"></ul>
             
     </main>
 
@@ -65,6 +77,6 @@
          &copy; 2026 Twin Cities Animal Rescue. All rights reserved   
         </p>
     </footer>  
-
+<script src="../js/script.js"></script>
 </body>
 </html>
